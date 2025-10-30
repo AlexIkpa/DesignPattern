@@ -1,7 +1,12 @@
 public class Klant {
-    Autoservice autoservice;
-    public Klant(Autoservice autoservice){
-        this.autoservice = autoservice;
+    Autoservice garage;
+    Autoservice dealership;
+
+    Auto[] autos;
+
+    public Klant(Autoservice autoservice, Autoservice autoservice1){
+        this.garage = autoservice;
+        this.dealership = autoservice1;
     }
 
 }

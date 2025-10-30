@@ -1,3 +1,3 @@
 public interface Autoservice {
-    void Aservice();
+    void Aservice(String service);
 }
