@@ -1,6 +1,11 @@
 public abstract class MotorType {
-    private final String type = new String();
-    public void verbruiken() {
-        System.out.println("De motor verbruikt " + type);
+    private final String type;
+
+    public MotorType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
     }
 }
