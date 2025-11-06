@@ -25,17 +25,17 @@ public class Dealership implements Autoservice {
 
     @Override
     public void Aservice(String service) {
-        if (service.equals("koop Mercedes_C") && autos[0].Available()) {
+        if (service.equals("Mercedes_C") && autos[0].Available()) {
             System.out.println("Mercedes_C gekocht!");
             autos[0].setAvailable(false);
-        } else if (service.equals("koop BMW_i8") && autos[1].Available()) {
+        } else if (service.equals("BMW_i8") && autos[1].Available()) {
             System.out.println("BMW_i8 gekocht!");
             autos[1].setAvailable(false);
-        } else if (service.equals("koop Volkswagen_golf") && autos[2].Available()) {
+        } else if (service.equals("Volkswagen_golf") && autos[2].Available()) {
             System.out.println("Volkswagen_golf gekocht!");
             autos[2].setAvailable(false);
         } else {
-            System.out.println("auto niet beschikbaar");
+            System.out.println("jammer niet op voorraad");
         }
 
         if (service.equals("Verkoop auto")) {

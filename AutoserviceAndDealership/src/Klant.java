@@ -8,9 +8,9 @@ public class Klant {
 
 
 
-public Klant(Autoservice autoservice, Autoservice autoservice1){
-        this.garage = autoservice;
-        this.dealership = autoservice1;
+public Klant(Autoservice service, Autoservice service2){
+        this.garage = service;
+        this.dealership = service2;
 
     }
 
